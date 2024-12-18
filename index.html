@@ -24,34 +24,31 @@
 </head>
 
 <body>
-    <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
-
+    <nav class="custom-navbar navbar navbar-expand-md navbar-dark bg-dark" aria-label="Furni Navigation">
         <div class="container">
-            <a href="index.html" class="logo">
-                <img src="images/luxury.png" style="width: 400px;">
+            <a href="/" class="logo">
+                <img src="/images/luxury.png" alt="Logo Nội Thất Cao Cấp" style="width: 400px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
                 aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarsFurni">
-                <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Trang chủ</a>
+            <div class="collapse navbar-collapse" style="font-size: large" id="navbarsFurni">
+                <ul class="custom-navbar-nav navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Trang chủ</a>
                     </li>
-                    <li><a class="nav-link" href="sanpham.html">Sản Phẩm</a></li>
-                    <li><a class="nav-link" href="lienhe.html">Sản Phẩm</a></li>
-                    <li><a class="nav-link" href="giohang.html">Đơn Hàng</a></li>
-                    <li><a class="nav-link" href="blog.html">Chi Tiết Đơn Hàng</a></li>
+                    <li><a class="nav-link" href="/admin/san_pham">Sản phẩm</a></li>
+                    <li><a class="nav-link" href="/admin/khach_hang">Khách hàng</a></li>
+                    <li><a class="nav-link" href="/admin/don_hang">Đơn hàng</a></li>
+                    <li><a class="nav-link" href="/admin/chi_tiet_don_hang">Chi tiết đơn hàng</a></li>
                 </ul>
-                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-                    <li><a class="nav-link" href="#"><img src="images/user.svg"></a></li>
-                    <li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+                <ul class="custom-navbar-cta navbar-nav ms-5">
+                    <li><a class="nav-link" href="/login"><img src="/images/user.svg" alt="Tài khoản"></a></li>
+                    <li><a class="nav-link" href="/gio_hang"><img src="/images/cart.svg" alt="Giỏ hàng"></a></li>
                 </ul>
             </div>
         </div>
-
     </nav>
 
     <div class="hero">
